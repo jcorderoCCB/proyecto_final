@@ -12,20 +12,15 @@
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar text-bg-dark fixed-top navbar-expand-lg" data-bs-theme="dark">
+  <nav class="navbar fixed-bottom sticky-md-top navbar-expand-lg" data-bs-theme="dark">
     <div class="container-fluid d-flex justify-content-between px-lg-5">
       <a href="#" class="navbar-brand">
         Site's Name
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-nav">
+      <button class="navbar-toggler dropup-center" type="button" data-bs-toggle="collapse" data-bs-target="#top-nav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas-lg offcanvas-end text-center w-sm-100 w-md-50" data-bs-scroll="true" id="top-nav">
-        <div class="offcanvas-header justify-content-end p-3">
-          <h2>Secciones</h2>
-          <button type="button" class="btn-close d-lg-none" data-bs-dismiss="offcanvas" data-bs-target="#top-nav"
-            aria-label="Close"></button>
-        </div>
+      <div class="collapse navbar-collapse justify-content-end text-center w-sm-100 w-md-50" data-bs-scroll="true" id="top-nav">
         <div class="navbar-nav">
           <a href="#" class="nav-link active">Section Jump 1</a>
           <a href="#" class="nav-link">Section Jump 2</a>
@@ -35,7 +30,7 @@
     </div>
   </nav>
   <!--- Slider --->
-  <div class="container-fluid mt-4 p-0">
+  <div class="container-fluid position-absolute top-0 m-0 p-0">
     <div id="top-slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#top-slider" data-bs-slide-to="0" class="active" aria-current="true"
@@ -59,7 +54,7 @@
           <img src="assets/espresso-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
         </div>
         <div class="carousel-item d-flex justify-content-center align-items-center">
-          <img src="https://picsum.photos/900.webp?grayscale&blur=2&random=5" class="d-block w-100 object-fit-cover"
+          <img src="assets/vandola-1.jpg" class="d-block w-md-100 object-fit-cover"
             alt="...">
         </div>
       </div>

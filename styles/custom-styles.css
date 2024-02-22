@@ -1,7 +1,19 @@
 body {
     background: rgb(131,58,180);
+    height: 120vh;
 }
-
+.navbar {
+    background-color: hsla(0, 0%, 0%, 0.397);
+    backdrop-filter: blur(5px);
+}
 .carousel-item,  .carousel-item img {
     max-height: 100svh;
+}
+/* Position slider bullets on small screens*/
+@media (width<768px) {
+    .carousel-indicators {
+        position:absolute;
+        bottom: 6vh;
+    }
+    
 }
