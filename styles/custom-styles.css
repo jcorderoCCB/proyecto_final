@@ -3,10 +3,10 @@ body {
     height: 120vh;
 }
 .navbar {
-    background-color: hsla(304, 89%, 14%, 0.459);
-    backdrop-filter: blur(15px);
+    background-color: hsla(304, 89%, 14%, 0.726);
+    backdrop-filter: blur(5px);
 }
-.carousel-item,  .carousel-item img {
+.carousel-item {
     max-height: 100svh;
 }
 /* Position slider bullets on small screens*/
@@ -15,5 +15,7 @@ body {
         position:absolute;
         bottom: 6vh;
     }
-    
+    .carousel-item img {
+        max-height: 100svh;
+    }
 }
