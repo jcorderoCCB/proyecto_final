@@ -3,7 +3,7 @@ body {
     height: 120vh;
 }
 .navbar {
-    background-color: hsla(187, 100%, 7%, 0.493);
+    background-color: hsla(304, 89%, 14%, 0.459);
     backdrop-filter: blur(15px);
 }
 .carousel-item,  .carousel-item img {
