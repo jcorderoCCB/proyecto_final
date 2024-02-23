@@ -37,6 +37,9 @@ body {
     z-index: 100000;
     width: 15vw;
 }
+.logo-box {
+    background-color: rgba(19, 9, 9, 0.75);
+}
 .navbar {
 --bs-navbar-toggler-focus-width:0;
 }
