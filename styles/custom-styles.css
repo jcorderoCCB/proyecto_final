@@ -11,7 +11,7 @@ body {
     max-height: 100svh;
 }
 /*small screens*/
-@media (width<768px) {
+@media (width<575.9px) {
     .carousel-indicators {
         position:absolute;
         bottom: 6vh;
@@ -23,10 +23,14 @@ body {
         background-color: hsla(304, 89%, 14%, 0.849);
         backdrop-filter: blur(5px);
     }
+    .logo-overlay {
+        width:60vw;
+    }
 }
-.top-logo {
-    max-width: 10rem;
+.navbar-brand {
+    max-width: 15vw;
 }
 .logo-overlay {
     z-index: 100000;
+    width: 15vw;
 }
