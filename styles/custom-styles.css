@@ -46,9 +46,9 @@ p>a {
         background-color: #d62828b9;
         backdrop-filter: blur(15px);
         position: fixed;
-        top:100vh;
+        bottom:0;
 height:10vmin;
-        transform: translate(0,-100%);
+       /* transform: translate(0,-100%);*/
     }
     .logo-overlay {
         width:60vw;
