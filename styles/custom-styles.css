@@ -1,10 +1,15 @@
 body {
     background: #FAEACE;
-    height: 120vh;
+}
+.bright-orange {
+    background-color: #f77f00;
 }
 .navbar {
     background-color: #1d021bb9;
     backdrop-filter: blur(5px);
+    position: fixed;
+    top:0px;
+    z-index: 100020;
 }
 
 .carousel-item {
@@ -13,6 +18,7 @@ body {
 .carousel-caption {
     bottom: 10%;
     background-color: #0e254459;
+    backdrop-filter: blur(1px);
 }
 /*small screens*/
 @media (width<575.9px) {
@@ -31,6 +37,9 @@ body {
     .navbar {
         background-color: #d62828b9;
         backdrop-filter: blur(15px);
+        position: fixed;
+        top:100svh;
+        transform: translate(0,-100%);
     }
     .logo-overlay {
         width:60vw;
@@ -48,7 +57,7 @@ body {
 }
 .logo-box {
     background-color: #00355259;
-    /*background-color: hsla(200, 60%, 12%, 0.6);*/
+    backdrop-filter: blur(2px);
 }
 .navbar {
 --bs-navbar-toggler-focus-width:0;

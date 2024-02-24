@@ -13,13 +13,14 @@
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar fixed-bottom sticky-sm-top navbar-expand-lg" data-bs-theme="dark">
+  <nav class="navbar w-100 navbar-expand-lg" data-bs-theme="dark">
     <div class="container-fluid d-flex justify-content-between px-lg-5">
       <a href="#" class="navbar-brand">
         <img src="assets/coffee-logo.png" alt="Coffee CLub Logo" class="img-fluid d-none d-sm-block">
       </a>
-      <button class="navbar-toggler dropup-center  border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-nav">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler dropup-center  border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#top-nav">
+        <span class="navbar-toggler-icon"> </span>
       </button>
       <div class="collapse navbar-collapse justify-content-end text-center w-sm-100 w-md-50" data-bs-scroll="true"
         id="top-nav">
@@ -33,12 +34,13 @@
   </nav>
   <!-- Slider -->
   <div class="container-fluid position-absolute top-0 m-0 p-0">
-    <!-- Logo overlay when small -->
+    <!--Logo overlay when small-->
     <div class="logo-overlay d-flex justify-content-center align-items-start w-100 pt-5 position-absolute d-sm-none">
       <a href="#" class="w-75 text-center logo-box p-3 rounded-4">
         <img src="assets/coffee-logo.png" alt="Coffee CLub Logo" class="img-fluid">
       </a>
     </div>
+    <!--Start of Slider as such-->
     <div id="top-slider" class="carousel slide carousel-fade" data-bs-ride="true">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#top-slider" data-bs-slide-to="0" class="active" aria-current="true"
@@ -52,7 +54,7 @@
         <!--slide 1-->
         <div class="carousel-item d-flex justify-content-center align-items-center active">
           <img src="assets/chemex-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
-          <div class="carousel-caption p-4 rounded-3 d-block">
+          <div class="carousel-caption container-sm w-auto w-sm-50 p-4 rounded-3 d-block">
             <h5>The Elegance of Chemex</h5>
             <p>Where form meets function in the pursuit of purity</p>
           </div>
@@ -75,14 +77,16 @@
         </div>
         <!--slide 4-->
         <div class="carousel-item d-flex justify-content-center align-items-start">
-          <img src="assets/espresso-1.jpg" class="d-block w-md-100 object-fit-cover" alt="..."><div class="carousel-caption p-4 rounded-3 d-block">
+          <img src="assets/espresso-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
+          <div class="carousel-caption p-4 rounded-3 d-block">
             <h5>The Exquisite Espresso</h5>
             <p>All the intensity and complexity in no time</p>
           </div>
         </div>
         <!--slide 5-->
         <div class="carousel-item d-flex justify-content-center align-items-end">
-          <img src="assets/vandola-1.jpg" class="d-block w-md-100 object-fit-cover" alt="..."><div class="carousel-caption p-4 rounded-3 d-block">
+          <img src="assets/vandola-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
+          <div class="carousel-caption p-4 rounded-3 d-block">
             <h5>The Vibrant Vandola</h5>
             <p>Where tradition and innovation meet in a cup</p>
           </div>
@@ -97,8 +101,18 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
+    <!--Bottom division-->
+    <div class="container-fluid bright-orange p-2 text-light text-center fs-1">
+      <blockquote class="blockquote w-50 m-auto p-3 p-sm-5">
+        <p class="display-4 fw-bold">"Coffee is a language in itself"</p>
+      <p class="blockquote-footer text-end">Jackie Chan</p>
+      </blockquote>
+    </div>
   </div>
+  <!--End of slider-->
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
