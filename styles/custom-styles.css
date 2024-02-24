@@ -1,6 +1,11 @@
 body {
     background: #FAEACE;
 }
+p>a {
+    color: #03689e;
+    text-decoration: none;
+    font-weight: normal;
+}
 .section {
     box-shadow: 0 3px 30px #58000079;
 }
@@ -41,7 +46,7 @@ body {
         background-color: #d62828b9;
         backdrop-filter: blur(15px);
         position: fixed;
-        top:100svh;
+        top:100vh;
         transform: translate(0,-100%);
     }
     .logo-overlay {
