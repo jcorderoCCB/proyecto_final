@@ -1,14 +1,18 @@
 body {
-    background: rgb(131,58,180);
+    background: #FAEACE;
     height: 120vh;
 }
 .navbar {
-    background-color: hsla(304, 89%, 14%, 0.726);
+    background-color: #1d021bb9;
     backdrop-filter: blur(5px);
 }
 
 .carousel-item {
     max-height: 100svh;
+}
+.carousel-caption {
+    bottom: 10%;
+    background-color: #0e254459;
 }
 /*small screens*/
 @media (width<575.9px) {
@@ -16,11 +20,16 @@ body {
         position:absolute;
         bottom: 6vh;
     }
+    .carousel-caption {
+        position:absolute;
+        bottom: 50%;
+        transform: translateY(50%);
+    }
     .carousel-item img {
         max-height: 100svh;
     }
     .navbar {
-        background-color: hsla(304, 89%, 14%, 0.9);
+        background-color: #d62828b9;
         backdrop-filter: blur(15px);
     }
     .logo-overlay {
@@ -31,14 +40,15 @@ body {
     }
 }
 .navbar-brand {
-    max-width: 15vw;
+    max-width: 18vh;
 }
 .logo-overlay {
     z-index: 100000;
     width: 15vw;
 }
 .logo-box {
-    background-color: rgba(19, 9, 9, 0.75);
+    background-color: #00355259;
+    /*background-color: hsla(200, 60%, 12%, 0.6);*/
 }
 .navbar {
 --bs-navbar-toggler-focus-width:0;
