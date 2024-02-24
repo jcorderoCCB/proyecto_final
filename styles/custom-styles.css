@@ -17,6 +17,7 @@ p>a {
     backdrop-filter: blur(5px);
     position: fixed;
     top:0px;
+height:10vmin;
     z-index: 100020;
 }
 
