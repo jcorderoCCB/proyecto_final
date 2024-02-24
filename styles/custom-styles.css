@@ -1,6 +1,9 @@
 body {
     background: #FAEACE;
 }
+.section {
+    box-shadow: 0 3px 30px #58000079;
+}
 .bright-orange {
     background-color: #f77f00;
 }
