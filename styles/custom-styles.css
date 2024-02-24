@@ -47,7 +47,6 @@ p>a {
         backdrop-filter: blur(15px);
         position: fixed;
         top:100dvh;
-
        transform: translate(0,-100%);
     }
     .logo-overlay {
