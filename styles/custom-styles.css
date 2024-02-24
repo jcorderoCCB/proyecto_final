@@ -48,7 +48,7 @@ p>a {
         position: fixed;
         top:100vh;
 height:10vmin;
-       /* transform: translate(0,-100%);*/
+       transform: translate(0,-100%);
     }
     .logo-overlay {
         width:60vw;
