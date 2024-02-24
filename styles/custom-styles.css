@@ -13,7 +13,7 @@ p>a {
     background-color: #f77f00;
 }
 .navbar {
-    background-color: #1d021bb9;
+    background-color: #d62828b9;
     backdrop-filter: blur(5px);
     position: fixed;
     top:0px;
@@ -46,7 +46,7 @@ p>a {
         background-color: #d62828b9;
         backdrop-filter: blur(15px);
         position: fixed;
-        top:100vh;
+        top:100 vh;
         transform: translate(0,-100%);
     }
     .logo-overlay {
@@ -69,4 +69,8 @@ p>a {
 }
 .navbar {
 --bs-navbar-toggler-focus-width:0;
+}
+.card {
+    background-color: unset;
+    border: none;
 }
