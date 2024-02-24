@@ -17,7 +17,6 @@ p>a {
     backdrop-filter: blur(5px);
     position: fixed;
     top:0px;
-height:10vmin;
     z-index: 100020;
 }
 
@@ -47,7 +46,7 @@ height:10vmin;
         background-color: #d62828b9;
         backdrop-filter: blur(15px);
         position: fixed;
-        bottom:0vmin;
+        top:100vmin;
         transform: translate(0,-100%);
     }
     .logo-overlay {
