@@ -1,5 +1,11 @@
+* {
+    overflow: visible;
+}
+
 body {
     background: #FAEACE;
+    height: auto;
+    width: 100%;
 }
 p>a {
     color: #03689e;
@@ -7,17 +13,17 @@ p>a {
     font-weight: normal;
 }
 .section {
-    box-shadow: 0 3px 30px #58000079;
+    /*box-shadow: 0 3px 30px #58000079;*/
 }
 .bright-orange {
     background-color: #f77f00;
 }
-.navbar {
+.sticky-nav {
     background-color: #d62828b9;
     backdrop-filter: blur(5px);
+    width: 100%;
     z-index: 100020;
 }
-
 .carousel-item {
     max-height: 100svh;
 }
@@ -28,7 +34,7 @@ p>a {
 }
 /* medium and up screens */
 @media (width>576px) {
-    .navbar {
+    .sticky-nav {
         position: fixed;
         top:0px;
     }
@@ -47,12 +53,12 @@ p>a {
     .carousel-item img {
         max-height: 100svh;
     }
-    .navbar {
+    .sticky-nav {
         backdrop-filter: blur(15px);
         position: fixed;
-        top:94vh;
-        min-height:6dvh;
+        bottom:0;
     }
+
     .logo-overlay {
         width:60vw;
     }
