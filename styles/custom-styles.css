@@ -56,7 +56,7 @@ p>a {
     .sticky-nav {
         backdrop-filter: blur(15px);
         position: fixed;
-        bottom:0;
+        bottom:0dvh;
     }
 
     .logo-overlay {
