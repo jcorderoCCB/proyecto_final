@@ -50,7 +50,8 @@ p>a {
     .navbar {
         backdrop-filter: blur(15px);
         position: fixed;
-        bottom:0dvh;
+        top:100dvh;
+        min-height:6vh;
         transform: translateY(-100%);
     }
     .logo-overlay {
