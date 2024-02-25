@@ -15,8 +15,6 @@ p>a {
 .navbar {
     background-color: #d62828b9;
     backdrop-filter: blur(5px);
-    position: fixed;
-    top:0px;
     z-index: 100020;
 }
 
@@ -27,6 +25,13 @@ p>a {
     bottom: 10%;
     background-color: #0e254459;
     backdrop-filter: blur(1px);
+}
+/* medium and up screens */
+@media (width>576px) {
+    .navbar {
+        position: fixed;
+        top:0px;
+    }
 }
 /*small screens*/
 @media (width<575.9px) {
@@ -43,11 +48,10 @@ p>a {
         max-height: 100svh;
     }
     .navbar {
-        background-color: #d62828b9;
         backdrop-filter: blur(15px);
         position: fixed;
-        top:100dvh;
-       transform: translate(0,-100%);
+        bottom:0dvh;
+        transform: translateY(-100%);
     }
     .logo-overlay {
         width:60vw;
