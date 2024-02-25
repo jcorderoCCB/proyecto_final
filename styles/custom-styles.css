@@ -14,6 +14,30 @@ box-shadow: 0 3px 30px #58000079;
 .bright-orange {
     background-color: #f77f00;
 }
+.mid-orange {
+    background-color: #f8ce7a;
+}
+.turquoise {
+    background-color: #03527dd5;
+}
+.dark-turquoise {
+    background-color: #013e5f;
+}
+.super-orange {
+    background-color: #D62828;
+}
+
+.turquoise a,
+.turquoise p,
+.turquoise h2,
+.turquoise h3,
+.super-orange a,
+.super-orange p,
+.super-orange h2,
+.super-orange h3 {
+    color: white;
+}
+
 .sticky-nav {
     background-color: #d62828b9;
     backdrop-filter: blur(5px);
@@ -77,6 +101,5 @@ box-shadow: 0 3px 30px #58000079;
 --bs-navbar-toggler-focus-width:0;
 }
 .card {
-    background-color: unset;
     border: none;
 }
