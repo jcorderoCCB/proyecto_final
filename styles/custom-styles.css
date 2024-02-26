@@ -29,6 +29,10 @@ box-shadow: 2px -3px 15px #56226369
 .super-orange {
     background-color: #D62828;
 }
+.highlight {
+    font-weight:normal;
+    color: #03689e;
+}
 
 .turquoise a,
 .turquoise p,

@@ -43,7 +43,7 @@
       </a>
     </div>
     <!--Start of Slider as such-->
-    <div id="top-slider" class="carousel slide carousel-fade" data-bs-ride="true">
+    <div id="top-slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#top-slider" data-bs-slide-to="0" class="active" aria-current="true"
           aria-label="Slide 1"></button>
@@ -55,42 +55,42 @@
       <div class="carousel-inner section">
         <!--slide 1-->
         <div class="carousel-item d-flex justify-content-center align-items-center active">
-          <img src="assets/chemex-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
-          <div class="carousel-caption container-sm w-auto w-sm-50 p-4 rounded-3 d-block">
-            <h5 class="fs-3">The Elegance of Chemex</h5>
-            <p>Form meets function</p>
+          <img src="assets/coffee-morning.jpg" class="d-block w-md-100 object-fit-cover" alt="">
+          <div class="carousel-caption p-4 rounded-3 d-block">
+            <h5 class="fs-3">How do you like yours?</h5>
+            <p>Learn the basics and brew your perfect cup</p>
           </div>
         </div>
         <!--slide 2-->
         <div class="carousel-item d-flex justify-content-center align-items-start">
-          <img src="assets/v-60-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
+          <img src="assets/v-60-1.jpg" class="d-block w-md-100 object-fit-cover" alt="">
           <div class="carousel-caption p-4 rounded-3 d-block">
             <h5 class="fs-3">The Versatile V60</h5>
             <p>Precision and grace</p>
           </div>
         </div>
         <!--slide 3-->
+        <div class="carousel-item d-flex justify-content-center align-items-center">
+          <img src="assets/chemex-1.jpg" class="d-block w-md-100 object-fit-cover" alt="">
+          <div class="carousel-caption container-sm w-auto w-sm-50 p-4 rounded-3 d-block">
+            <h5 class="fs-3">The Elegance of Chemex</h5>
+            <p>Form meets function</p>
+          </div>
+        </div>
+        <!--slide 4-->
         <div class="carousel-item d-flex justify-content-center align-items-end">
-          <img src="assets/french-press-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
+          <img src="assets/french-press-1.jpg" class="d-block w-md-100 object-fit-cover" alt="">
           <div class="carousel-caption p-4 rounded-3 d-block">
             <h5 class="fs-3">The Classic French Press</h5>
             <p>Rich and full</p>
           </div>
         </div>
-        <!--slide 4-->
-        <div class="carousel-item d-flex justify-content-center align-items-start">
-          <img src="assets/espresso-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
-          <div class="carousel-caption p-4 rounded-3 d-block">
-            <h5 class="fs-3">The Glam Cold Brew</h5>
-            <p>All sweetness and class</p>
-          </div>
-        </div>
         <!--slide 5-->
-        <div class="carousel-item d-flex justify-content-center align-items-end">
-          <img src="assets/vandola-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
+        <div class="carousel-item d-flex justify-content-center align-items-center">
+          <img src="assets/cold-1.jpg" class="d-block w-md-100 object-fit-cover" alt="">
           <div class="carousel-caption p-4 rounded-3 d-block">
-            <h5>The Vibrant Vandola</h5>
-            <p>Where tradition and innovation meet in a cup</p>
+            <h5 class="fs-3">The Chill of a Cold Brew</h5>
+            <p>All sweetness and class</p>
           </div>
         </div>
       </div>
@@ -122,11 +122,11 @@
         <div class="col-sm-9 col-md-7 text-center text-md-start">
           <p class="fw-light fs-4">
             <span class="fw-normal">Understanding various coffee brewing methods is like holding the key to a treasure
-              chest.</span> Each method, from the Chemex's <a href="#chemex">clean profiles</a> to the French Press's <a
-              href="#frenchpress">robust depths</a>, allows you to tailor your coffee to your mood and needs. With the
-            precision of an <a href="#espresso">Espresso</a>, you can
-            kick-start a sluggish morning, or with the gentle touch of a <a href="v60">V60</a>, ease into a peaceful
-            afternoon. You'll never be
+              chest.</span> Each method, from the <span class="fw-bold highlight">Chemex's</span> clean profiles to
+            the <span class="fw-bold highlight">French Press's</span> robust depths, allows you to tailor your coffee to your mood
+            and needs. You can
+            kick-start a sluggish morning with the gentle touch of a <span class="fw-bold highlight">V60</span> or ease into a hot afternoon
+            with the subtle grace of a <span class="fw-bold highlight">Cold Brew</span>. You'll never be
             stuck with a dull
             cup again!
           </p>
@@ -146,8 +146,8 @@
         </div>
         <div class="col-md-5 mt-3">
           <div class="input-group">
-            <input type="text" class="form-control w-sm-75 border-0" placeholder="youremail@email.com" aria-label="Sign up"
-              aria-describedby="button-addon2">
+            <input type="text" class="form-control w-sm-75 border-0" placeholder="youremail@email.com"
+              aria-label="Sign up" aria-describedby="button-addon2">
             <button class="btn btn-danger w-sm-25" type="button" id="inputGroup-sizing-lg">Sign up</button>
           </div>
         </div>
@@ -206,11 +206,15 @@
         <div class="card border-light dark-turquoise rounded-5 p-3 p-md-4 h-100">
           <div class="card-body mb-3">
             <div class="ratio ratio-1x1 mb-4">
-              <img src="assets/chemex-2.jpg" alt="photo of a french press" class="card-img-top rounded-4 object-fit-cover">
+              <img src="assets/french-2.jpg" alt="photo of a french press"
+                class="card-img-top rounded-4 object-fit-cover">
             </div>
             <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">French Press</h3>
             <p class="card-text fs-5 text-center text-md-start fw-light">
-              This is the method for those who crave a rich, robust cup of coffee. It's perfect if you prefer your brew full-bodied and full of flavor, with all the natural oils and sediments included. This method is less about finesse and more about simplicity and strength. It's particularly suited to darker roasts and those chilly mornings when only the richest coffee will do.
+              This is the method for those who crave a rich, robust cup of coffee. It's perfect if you prefer your brew
+              full-bodied and full of flavor, with all the natural oils and sediments included. This method is less
+              about finesse and more about simplicity and strength. It's particularly suited to darker roasts and those
+              chilly mornings when only the richest coffee will do.
             </p>
           </div>
           <div class="card-footer rounded-5 super-orange text-center text-md-end">
@@ -223,11 +227,15 @@
         <div class="card border-light dark-turquoise rounded-5 p-3 p-md-4 h-100">
           <div class="card-body mb-3">
             <div class="ratio ratio-1x1 mb-4">
-              <img src="assets/chemex-2.jpg" alt="Cold brew method" class="card-img-top rounded-4 object-fit-cover">
+              <img src="assets/cold-2.jpg" alt="Cold brew method" class="card-img-top rounded-4 object-fit-cover">
             </div>
             <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">Cold Brew</h3>
             <p class="card-text fs-5 text-center text-md-start fw-light">
-              Cold Brew is the method for the patient and the planner, those who appreciate the smoother, sweeter side of coffee without the acidity often found in its hot-brewed counterparts. This method is ideal for coffee lovers who seek a refreshing, mellow cup that can be enjoyed over hours or even days. Perfect if you enjoy a rich, concentrated flavor over ice on a warm day. It's especially suited for those who prefer a less bitter, more approachable coffee experience, offering a taste profile that is both bold and smooth.
+              Cold Brew is the method for the patient and the planner, those who appreciate the smoother, sweeter side
+              of coffee without the acidity often found in its hot-brewed counterparts. This method is ideal for coffee
+              lovers who seek a refreshing, mellow cup that can be enjoyed over hours or even days. Perfect if you enjoy
+              a rich, concentrated flavor over ice on a warm day. It's especially suited for those who prefer a less
+              bitter, more approachable coffee experience, offering a taste profile that is both bold and smooth.
             </p>
           </div>
           <div class="card-footer rounded-5 super-orange text-center text-md-end">
