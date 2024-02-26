@@ -9,7 +9,10 @@ p>a {
     font-weight: normal;
 }
 .section {
-box-shadow: 0 3px 30px #58000079;
+box-shadow: 2px -3px 15px #56226369
+}
+.strong-shadow {
+    box-shadow: 2px -3px 15px #00040c77;
 }
 .bright-orange {
     background-color: #f77f00;
@@ -18,7 +21,7 @@ box-shadow: 0 3px 30px #58000079;
     background-color: #f8ce7a;
 }
 .turquoise {
-    background-color: #03527dd5;
+    background-color: #03527d;
 }
 .dark-turquoise {
     background-color: #013e5f;
@@ -39,7 +42,7 @@ box-shadow: 0 3px 30px #58000079;
 }
 
 .sticky-nav {
-    background-color: #d62828b9;
+    background-color: #d62828e7;
     backdrop-filter: blur(5px);
     width: 100%;
     z-index: 100020;
@@ -49,7 +52,7 @@ box-shadow: 0 3px 30px #58000079;
 }
 .carousel-caption {
     bottom: 10%;
-    background-color: #0e254459;
+    background-color: #17181a59;
     backdrop-filter: blur(1px);
 }
 /* medium and up screens */
@@ -67,7 +70,7 @@ box-shadow: 0 3px 30px #58000079;
     }
     .carousel-caption {
         position:absolute;
-        bottom: 50%;
+        bottom: 33%;
         transform: translateY(50%);
     }
     .carousel-item img {
@@ -94,7 +97,7 @@ box-shadow: 0 3px 30px #58000079;
     width: 15vw;
 }
 .logo-box {
-    background-color: #00355259;
+    background-color: #013e5fcc;
     backdrop-filter: blur(2px);
 }
 .navbar {

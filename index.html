@@ -57,32 +57,32 @@
         <div class="carousel-item d-flex justify-content-center align-items-center active">
           <img src="assets/chemex-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
           <div class="carousel-caption container-sm w-auto w-sm-50 p-4 rounded-3 d-block">
-            <h5>The Elegance of Chemex</h5>
-            <p>Where form meets function in the pursuit of purity</p>
+            <h5 class="fs-3">The Elegance of Chemex</h5>
+            <p>Form meets function</p>
           </div>
         </div>
         <!--slide 2-->
         <div class="carousel-item d-flex justify-content-center align-items-start">
           <img src="assets/v-60-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
           <div class="carousel-caption p-4 rounded-3 d-block">
-            <h5>The Versatile V60</h5>
-            <p>The flavors of your favorite bean with precision and grace</p>
+            <h5 class="fs-3">The Versatile V60</h5>
+            <p>Precision and grace</p>
           </div>
         </div>
         <!--slide 3-->
         <div class="carousel-item d-flex justify-content-center align-items-end">
           <img src="assets/french-press-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
           <div class="carousel-caption p-4 rounded-3 d-block">
-            <h5>The Classic French Press</h5>
-            <p>Richness and simplicity for full-bodied brews</p>
+            <h5 class="fs-3">The Classic French Press</h5>
+            <p>Rich and full</p>
           </div>
         </div>
         <!--slide 4-->
         <div class="carousel-item d-flex justify-content-center align-items-start">
           <img src="assets/espresso-1.jpg" class="d-block w-md-100 object-fit-cover" alt="...">
           <div class="carousel-caption p-4 rounded-3 d-block">
-            <h5>The Exquisite Espresso</h5>
-            <p>All the intensity and complexity in no time</p>
+            <h5 class="fs-3">The Glam Cold Brew</h5>
+            <p>All sweetness and class</p>
           </div>
         </div>
         <!--slide 5-->
@@ -112,10 +112,11 @@
     </blockquote>
   </div>
   <!--Start of grid-->
-  <div class="container-fluid section pt-5">
-    <div class="m-sm-auto">
-      <div class="row d-flex justify-content-sm-evenly align-items-center text-dark px-4 py-5 p-sm-5 mb-5">
-        <div class="col-sm-3 col-md-4 text-start">
+  <div class="container-fluid section m-0 pt-5">
+    <!--Lead in-->
+    <div class="container">
+      <div class=" row d-flex justify-content-sm-evenly align-items-center text-dark px-4 py-5 p-sm-5 ">
+        <div class="col-sm-3 col-md-5 text-start">
           <h1 class="text-center text-md-end fw-bolder display-1 pb-3">Know your brew</h1>
         </div>
         <div class="col-sm-9 col-md-7 text-center text-md-start">
@@ -131,84 +132,106 @@
           </p>
         </div>
       </div>
-      <!--Cards-->
-      <h2 class="text-center display-5 fw-bold mt-5 pt-3 mb-3" id="methods">The Methods</h2>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 d-flex m-auto g-3 h-100">
-        <!--Card 1-->
-        <div class="col">
-          <div class="card turquoise rounded-5 p-3 p-md-4 h-100">
-            <div class="card-body mb-3">
-              <div class="ratio ratio-1x1 my-2">
-                <img src="assets/v60-2.jpg" alt="V60 Pour over method" class="card-img-top rounded-4 object-fit-cover">
-              </div>
-              <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">V60</h3>
-              <p class="card-text fs-5 text-center text-md-start fw-light">
-                V60 enthusiasts are the tinkerers and perfectionists of the coffee world. This method appeals to those who enjoy experimenting with their brew, adjusting variables like grind size, water temperature, and pouring technique to achieve the perfect cup. The V60 <span class="fw-medium">offers unparalleled control over the brewing process</span>, making it ideal for coffee drinkers who love to dive deep into the craft and appreciate the bright, nuanced flavors it can extract from single-origin beans.
-              </p>
-            </div>
-            <div class="card-footer rounded-5 dark-turquoise border-0 text-center text-md-end fw-light">
-              <a href="#chemex" class="text-decoration-none">Learn more</a>
-            </div>
+    </div>
+  </div>
+  <!--Sign up CTA-->
+  <div class="w-100 dark-turquoise text-light py-5">
+    <div class="container">
+      <div class="row d-flex justify-content-start align-items-center px-4">
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-2">
+          <h3 class="fs-3 m-0 p-0">Get the News</h3>
+          <p class="fw-light m-0 p-0">Once a week, no spam</p>
+        </div>
+        <div class="col-md-5 mt-3">
+          <div class="input-group">
+            <input type="text" class="form-control w-sm-75 border-0" placeholder="youremail@email.com" aria-label="Sign up"
+              aria-describedby="button-addon2">
+            <button class="btn btn-danger w-sm-25" type="button" id="inputGroup-sizing-lg">Sign up</button>
           </div>
         </div>
-        <!--Card 2-->
-        <div class="col">
-          <div class="card mid-orange rounded-5 p-3 p-md-4 h-100">
-            <div class="card-body mb-3">
-              <div class="ratio ratio-1x1 my-2">
-                <img src="assets/chemex-2.jpg" alt="" class="card-img-top rounded-4 object-fit-cover">
-              </div>
-              <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">Chemex</h3>
-              <p class="card-text fs-5 text-center text-md-start">
-                Chemex is for the purist at heart. Its unique design and brewing technique produce a coffee that is
-                <spaan class="fw-bold">clean, pure and free of bitterness</spaan>, emphasizing the subtle nuances of
-                the coffee bean. If you delight in the clarity and complexity of flavors and value a method that
-                doubles as a centerpiece, the Chemex is your perfect match. Ideal for light to medium roast beans.
-              </p>
+      </div>
+    </div>
+  </div>
+  <!--Cards-->
+  <div class="container-fluid section strong-shadow turquoise py-5">
+    <h2 class="text-center display-4 fw-bold mb-3" id="methods">The Methods</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 d-flex m-auto g-3 h-100">
+      <!--Card 1-->
+      <div class="col">
+        <div class="card border-light dark-turquoise rounded-5 p-3 p-md-4 h-100">
+          <div class="card-body mb-3">
+            <div class="ratio ratio-1x1 my-2">
+              <img src="assets/v60-2.jpg" alt="V60 Pour over method" class="card-img-top rounded-4 object-fit-cover">
             </div>
-            <div class="card-footer rounded-5 super-orange border-0 text-center text-md-end">
-              <a href="" class="text-decoration-none">Learn more</a>
-            </div>
+            <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">V60</h3>
+            <p class="card-text fs-5 text-center text-md-start fw-light">
+              V60 enthusiasts are the tinkerers and perfectionists of the coffee world. This method appeals to those
+              who
+              enjoy experimenting with their brew, adjusting variables like grind size, water temperature, and pouring
+              technique to achieve the perfect cup. The V60 <span class="fw-medium">offers unparalleled control over
+                the
+                brewing process</span>, making it ideal for coffee drinkers who love to dive deep into the craft and
+              appreciate the bright, nuanced flavors it can extract from single-origin beans.
+            </p>
+          </div>
+          <div class="card-footer rounded-5 super-orange border-0 text-center text-md-end">
+            <a href="" class="text-decoration-none">Learn more</a>
           </div>
         </div>
-        <!--Card 3-->
-        <div class="col">
-          <div class="card mid-orange rounded-5 p-3 p-md-4 h-100">
-            <div class="card-body mb-3">
-              <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">Chemex</h3>
-              <div class="ratio ratio-1x1 mb-4">
-                <img src="assets/chemex-2.jpg" alt="" class="card-img-top rounded-4 object-fit-cover">
-              </div>
-              <p class="card-text fs-5 text-center text-md-start">
-                Chemex is for the purist at heart. Its unique design and brewing technique produce a coffee that is
-                <spaan class="fw-bold">clean, pure and free of bitterness</spaan>, emphasizing the subtle nuances of
-                the coffee bean. If you delight in the clarity and complexity of flavors and value a method that
-                doubles as a centerpiece, the Chemex is your perfect match. Ideal for light to medium roast beans.
-              </p>
+      </div>
+      <!--Card 2-->
+      <div class="col">
+        <div class="card border-light dark-turquoise rounded-5 p-3 p-md-4 h-100">
+          <div class="card-body mb-3">
+            <div class="ratio ratio-1x1 my-2">
+              <img src="assets/chemex-2.jpg" alt="photo of a Chemex" class="card-img-top rounded-4 object-fit-cover">
             </div>
-            <div class="card-footer rounded-5 turquoise text-center text-md-end fw-light">
-              <a href="#chemex" class="text-decoration-none">Learn more</a>
-            </div>
+            <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">Chemex</h3>
+            <p class="card-text fs-5 text-center text-md-start fw-light">
+              Chemex is for the purist at heart. Its unique design and brewing technique produce a coffee that is
+              <spaan class="fw-bold">clean, pure and free of bitterness</spaan>, emphasizing the subtle nuances of
+              the coffee bean. If you delight in the clarity and complexity of flavors and value a method that
+              doubles as a centerpiece, the Chemex is your perfect match. Ideal for light to medium roast beans.
+            </p>
+          </div>
+          <div class="card-footer rounded-5 super-orange border-0 text-center text-md-end">
+            <a href="" class="text-decoration-none">Learn more</a>
           </div>
         </div>
-        <!--Card 4-->
-        <div class="col">
-          <div class="card mid-orange rounded-5 p-3 p-md-4 h-100">
-            <div class="card-body mb-3">
-              <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">Chemex</h3>
-              <div class="ratio ratio-1x1 mb-4">
-                <img src="assets/chemex-2.jpg" alt="" class="card-img-top rounded-4 object-fit-cover">
-              </div>
-              <p class="card-text fs-5 text-center text-md-start">
-                Chemex is for the purist at heart. Its unique design and brewing technique produce a coffee that is
-                <spaan class="fw-bold">clean, pure and free of bitterness</spaan>, emphasizing the subtle nuances of
-                the coffee bean. If you delight in the clarity and complexity of flavors and value a method that
-                doubles as a centerpiece, the Chemex is your perfect match. Ideal for light to medium roast beans.
-              </p>
+      </div>
+      <!--Card 3-->
+      <div class="col">
+        <div class="card border-light dark-turquoise rounded-5 p-3 p-md-4 h-100">
+          <div class="card-body mb-3">
+            <div class="ratio ratio-1x1 mb-4">
+              <img src="assets/chemex-2.jpg" alt="photo of a french press" class="card-img-top rounded-4 object-fit-cover">
             </div>
-            <div class="card-footer rounded-5 turquoise text-center text-md-end fw-light">
-              <a href="#chemex" class="text-decoration-none">Learn more</a>
+            <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">French Press</h3>
+            <p class="card-text fs-5 text-center text-md-start fw-light">
+              This is the method for those who crave a rich, robust cup of coffee. It's perfect if you prefer your brew full-bodied and full of flavor, with all the natural oils and sediments included. This method is less about finesse and more about simplicity and strength. It's particularly suited to darker roasts and those chilly mornings when only the richest coffee will do.
+            </p>
+          </div>
+          <div class="card-footer rounded-5 super-orange text-center text-md-end">
+            <a href="" class="text-decoration-none">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <!--Card 4-->
+      <div class="col">
+        <div class="card border-light dark-turquoise rounded-5 p-3 p-md-4 h-100">
+          <div class="card-body mb-3">
+            <div class="ratio ratio-1x1 mb-4">
+              <img src="assets/chemex-2.jpg" alt="Cold brew method" class="card-img-top rounded-4 object-fit-cover">
             </div>
+            <h3 class="card-title display-6 text-center text-sm-start fw-bolder mb-4">Cold Brew</h3>
+            <p class="card-text fs-5 text-center text-md-start fw-light">
+              Cold Brew is the method for the patient and the planner, those who appreciate the smoother, sweeter side of coffee without the acidity often found in its hot-brewed counterparts. This method is ideal for coffee lovers who seek a refreshing, mellow cup that can be enjoyed over hours or even days. Perfect if you enjoy a rich, concentrated flavor over ice on a warm day. It's especially suited for those who prefer a less bitter, more approachable coffee experience, offering a taste profile that is both bold and smooth.
+            </p>
+          </div>
+          <div class="card-footer rounded-5 super-orange text-center text-md-end">
+            <a href="#chemex" class="text-decoration-none">Learn more</a>
           </div>
         </div>
       </div>
@@ -219,9 +242,9 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
