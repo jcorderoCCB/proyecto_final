@@ -1,7 +1,6 @@
 /* Google Fonts */
 .tilt-warp-text, h1, h2, h3, h4, h5, h6 {
   font-family: "Tilt Warp", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
@@ -12,7 +11,6 @@
 
 .geologica-thin, p, a, li {
   font-family: "Geologica", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
   font-variation-settings:
@@ -91,7 +89,6 @@ box-shadow: 2px -3px 15px #56226369
 }
 .carousel-caption>h5 {
     font-family: "Tilt Warp", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
