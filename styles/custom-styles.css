@@ -55,20 +55,18 @@ box-shadow: 2px -3px 15px #56226369
 .super-orange {
     background-color: #D62828;
 }
-.highlight {
-    font-weight:400;
-    color: #03689e;
-}
 
-.turquoise a,
-.turquoise p,
-.turquoise h2,
-.turquoise h3,
+.card.dark-turquoise,
 .super-orange a,
 .super-orange p,
 .super-orange h2,
 .super-orange h3 {
     color: white;
+}
+
+.highlight {
+    font-weight:400;
+    color: #03689e;
 }
 
 .sticky-nav {
