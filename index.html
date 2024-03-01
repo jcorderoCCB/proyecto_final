@@ -359,27 +359,30 @@
   <div class="section container-fluid dark-turquoise p-lg-4 py-5" id="calendar">
     <h2 class="text-center display-4 mb-3 text-light">Join the Club!</h2>
     <!--inner-->
-    <div class="container section col-lg-5 text-center turquoise p-1 p-lg-1 rounded-4">
-      <div class="row text-center text-light p-4">
-        <p class="lead col-md-6 m-auto my-2">
+    <div class="container section col-lg-5 text-center turquoise p-1 p-lg-1 mb-5 rounded-4">
+      <div class="row justify-content-center text-center text-light p-4">
+        <p class="lead col-md-6 m-auto mt-2 mb-4">
           Come join us and learn about the wonders of coffee brewing in a fun and relaxed environment
         </p>
-      </div>
-      <!--Dropdown-->
-      <div class="dropdown m-3">
-        <button class="btn btn-lg btn-secondary dropdown-toggle bg-danger" id="myDropdown" name="month" type="button"
-          data-bs-toggle="dropdown" aria-expanded="false">
-          Coming Events
-        </button>
-        <ul class="dropdown-menu bg-dark" id="options-list">
-          <li><a class="dropdown-item" id="3" href="#calendar">March</a></li>
-          <li><a class="dropdown-item" id="4" href="#calendar">April</a></li>
-          <li><a class="dropdown-item" id="5" href="#calendar">June</a></li>
-        </ul>
+
+        <!--Dropdown-->
+        <div class="row text-center">
+          <div class="dropdown dropdown-center col-md-6 m-auto" id="month-dropdown">
+            <button class="btn btn-lg super-orange text-light dropdown-toggle w-100" id="myDropdown" name="month"
+              type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Choose a month
+            </button>
+            <ul class="dropdown-menu super-orange fs-5" id="options-list">
+              <li><a class="dropdown-item" id="3" href="#month-dropdown">March</a></li>
+              <li><a class="dropdown-item" id="4" href="#month-dropdown">April</a></li>
+              <li><a class="dropdown-item" id="5" href="#month-dropdown">May</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <!--Cards Start-->
-      <div class="container d-flex justify-content-center align-items-start m-auto gx-4 text-start mt-5">
+      <div class="container d-flex justify-content-center align-items-start m-auto gx-4 text-start" id="dynamic-cards">
         <div class="w-100 my-3">
           <div class="list-group rounded-3 overflow-hidden">
 
@@ -388,9 +391,9 @@
             <a href="#" class="list-group-item list-group-item-action pb-0" data-bs-toggle="modal"
               data-bs-target="#signup-form" data-month="3">
               <!--date and tag-->
-              <div class="d-flex justify-content-between align-items-start">
+              <div class="d-flex justify-content-between align-items-center">
                 <small class="highlight fs-5">Thu, 10th March</small>
-                <span class="badge bright-orange rounded-pill me-2">Chemex</span>
+                <span class="badge bright-orange rounded-pill">Chemex</span>
               </div>
               <div class="d-block">
                 <h5 class="mb-1">Chemex Methodology: The Intersection of Art and Science</h5>
@@ -402,9 +405,9 @@
 
             <a href="#" class="list-group-item list-group-item-action pb-0" data-bs-toggle="modal"
               data-bs-target="#signup-form" data-month="3">
-              <div class="d-flex justify-content-between align-items-start">
+              <div class="d-flex justify-content-between align-items-center">
                 <small class="highlight fs-5">Sat, 19th March</small>
-                <span class="badge bright-orange rounded-pill me-2">V60</span>
+                <span class="badge bright-orange rounded-pill">V60</span>
               </div>
               <!--Title card-->
               <div class="d-block">
@@ -418,9 +421,9 @@
 
             <a href="#" class="list-group-item list-group-item-action pb-0" data-bs-toggle="modal"
               data-bs-target="#signup-form" data-month="3">
-              <div class="d-flex justify-content-between align-items-start">
+              <div class="d-flex justify-content-between align-items-center">
                 <small class="highlight fs-5">Wed, 30th March</small>
-                <span class="badge bright-orange rounded-pill me-2">Cold Brew</span>
+                <span class="badge bright-orange rounded-pill">Cold Brew</span>
               </div>
               <div class="d-block">
                 <h5 class="my-1">Cold Brew Techniques: Understanding Extraction</h5>
@@ -433,9 +436,9 @@
             <!-- April events -->
             <a href="#" class="list-group-item list-group-item-action pb-0" data-bs-toggle="modal"
               data-bs-target="#signup-form" data-month="4">
-              <div class="d-flex justify-content-between align-items-start">
+              <div class="d-flex justify-content-between align-items-center">
                 <small class="highlight fs-5">Fri, 1st April</small>
-                <span class="badge bright-orange rounded-pill me-2">French Press</span>
+                <span class="badge bright-orange rounded-pill">French Press</span>
               </div>
               <div class="d-block">
                 <h5 class="my-1">The Essence of French Press Brewing</h5>
@@ -447,9 +450,9 @@
 
             <a href="#" class="list-group-item list-group-item-action pb-2 p-md-3" data-bs-toggle="modal"
               data-bs-target="#signup-form" data-month="4">
-              <div class="d-flex justify-content-between align-items-start">
+              <div class="d-flex justify-content-between align-items-center">
                 <small class="highlight fs-5">Tue, 12th April</small>
-                <span class="badge bright-orange rounded-pill me-2">Chemex</span>
+                <span class="badge bright-orange rounded-pill">Chemex</span>
               </div>
               <div class="d-block">
                 <h5 class="my-1">Chemex Advanced Brewing: Enhancing Clarity and Flavor</h5>
@@ -461,9 +464,9 @@
 
             <a href="#" class="list-group-item list-group-item-action pb-2 p-md-3" data-bs-toggle="modal"
               data-bs-target="#signup-form" data-month="4">
-              <div class="d-flex justify-content-between align-items-start">
+              <div class="d-flex justify-content-between align-items-center">
                 <small class="highlight fs-5">Sat, 23rd April</small>
-                <span class="badge bright-orange rounded-pill me-2">V60</span>
+                <span class="badge bright-orange rounded-pill">V60</span>
               </div>
               <div class="d-block">
                 <h5 class="my-1">V60 Crafting for Connoisseurs</h5>
@@ -474,9 +477,9 @@
 
             <a href="#" class="list-group-item list-group-item-action pb-2 p-md-3" data-bs-toggle="modal"
               data-bs-target="#signup-form" data-month="4">
-              <div class="d-flex justify-content-between align-items-start">
+              <div class="d-flex justify-content-between align-items-center">
                 <small class="highlight fs-5">Thu, 28th April</small>
-                <span class="badge bright-orange rounded-pill me-2">Cold Brew</span>
+                <span class="badge bright-orange rounded-pill">Cold Brew</span>
               </div>
               <div class="d-block">
                 <h5 class="my-1">Exploration of Cold Brew Varieties</h5>
@@ -485,9 +488,45 @@
                 event explores how each method affects taste, acidity, and caffeine content.</p>
             </a>
 
+            <!--May events-->
+            <a href="#" class="list-group-item list-group-item-action pb-2 p-md-3" data-bs-toggle="modal"
+              data-bs-target="#signup-form" data-month="5">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="highlight fs-5">Sun, 19th May</small>
+                <span class="badge bright-orange rounded-pill">Cold Brew</span>
+              </div>
+              <div class="d-block">
+                <h5 class="my-1">Innovative Cold Brew Coffee Creations</h5>
+              </div>
+              <p class="mb-2">An exploration of innovative brewing techniques and flavor infusions for cold brew coffee,
+                examining how different preparation methods can create unique taste profiles.</p>
+            </a>
 
+            <a href="#" class="list-group-item list-group-item-action pb-2 p-md-3" data-bs-toggle="modal"
+              data-bs-target="#signup-form" data-month="5">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="highlight fs-5">Wed, 15th May</small>
+                <span class="badge bright-orange rounded-pill">Chemex</span>
+              </div>
+              <div class="d-block">
+                <h5 class="my-1">Chemex: The Craft of Coffee Brewing</h5>
+              </div>
+              <p class="mb-2">A session dedicated to mastering the Chemex brewing process, with a focus on filter
+                technique, coffee selection, and grind optimization to enhance flavor extraction.</p>
+            </a>
 
-
+            <a href="#" class="list-group-item list-group-item-action pb-2 p-md-3" data-bs-toggle="modal"
+              data-bs-target="#signup-form" data-month="5">
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="highlight fs-5">Mon, 13th May</small>
+                <span class="badge bright-orange rounded-pill">V60</span>
+              </div>
+              <div class="d-block">
+                <h5 class="my-1">V60 Experimentation: Beyond the Basics</h5>
+              </div>
+              <p class="mb-2">This workshop encourages creative experimentation with the V60 brewing method, discussing
+                the effects of variable adjustments on the sensory characteristics of coffee.</p>
+            </a>
           </div>
           <!--Cards END-->
         </div>
@@ -512,14 +551,14 @@
             </div>
           </div>
         </div>
-
-
       </div>
+      <!--Cards End-->
+
     </div>
   </div>
-  <div class="text-center">
-    <p>Is my Java working?</p>
-    <div class="text-center text-danger pb-5" id="test-div"></div>
+  <!--Calendar End-->
+  <div class="strong-shadow py-5 bg-dark">
+
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
