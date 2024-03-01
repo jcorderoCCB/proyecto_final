@@ -35,7 +35,7 @@ p>a {
     font-weight: normal;
 }
 .section {
-box-shadow: 2px -3px 15px #56226369
+box-shadow: 2px -3px 15px #1b1a1569
 }
 .strong-shadow {
     box-shadow: 2px -3px 15px #00040c77;
@@ -97,6 +97,7 @@ box-shadow: 2px -3px 15px #56226369
         position: fixed;
         top:0px;
     }
+
 }
 /*small screens*/
 @media (width<575.9px) {
@@ -129,6 +130,7 @@ box-shadow: 2px -3px 15px #56226369
     .navbar-toggler {
         margin: auto;
     }
+ 
 }
 .navbar-brand {
     max-width: 22vh;
