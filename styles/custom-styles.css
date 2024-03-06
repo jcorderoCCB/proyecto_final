@@ -72,12 +72,12 @@ box-shadow: 2px -3px 15px #1b1a1569
 
 .sticky-nav {
     background-color: #d62828;
-    backdrop-filter: blur(5px);
     width: 100%;
     z-index: 100020;
 }
 .carousel-item {
     height: 100svh;
+    opacity: 0.9;
 }
 .carousel-caption {
     bottom: 10%;
@@ -97,6 +97,9 @@ box-shadow: 2px -3px 15px #1b1a1569
     .sticky-nav {
         position: fixed;
         top:0px;
+    }
+    .active {
+        border-radius: 8px;
     }
 
 }
@@ -120,7 +123,6 @@ box-shadow: 2px -3px 15px #1b1a1569
         max-height: 100svh;
     }
     .sticky-nav {
-        backdrop-filter: blur(15px);
         position: fixed;
         bottom:0dvh;
     }
@@ -131,7 +133,6 @@ box-shadow: 2px -3px 15px #1b1a1569
     .navbar-toggler {
         margin: auto;
     }
- 
 }
 .navbar-brand {
     max-width: 22vh;
@@ -156,5 +157,13 @@ box-shadow: 2px -3px 15px #1b1a1569
 .btn.super-orange:focus,
 .super-orange .dropdown-item:hover {
     background-color: #be1616;
+    color: white;
+}
+.active {
+    background-color: #be1616;
+    height: 100%;
+}
+.nav-link {
+    font-weight: lighter;
     color: white;
 }
