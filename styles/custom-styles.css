@@ -86,11 +86,13 @@ box-shadow: 2px -3px 15px #1b1a1569
 }
 .carousel-item {
     height: 100svh;
+}
+.carousel-item img {
     opacity: 0.9;
 }
 .carousel-caption {
     bottom: 10%;
-    background-color: #17181a8f;
+    background-color: #17181adc;
     backdrop-filter: blur(2px);
     max-width: 980px;
     margin:auto;
