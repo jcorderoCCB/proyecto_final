@@ -29,8 +29,9 @@
           data-bs-target="#top-nav">
           <span class="navbar-toggler-icon text-light"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end align-items-md-stretch text-center w-sm-100 w-md-50 h-100" data-bs-scroll="true"
-          id="top-nav">
+        <div
+          class="collapse navbar-collapse justify-content-end align-items-md-stretch text-center w-sm-100 w-md-50 h-100"
+          data-bs-scroll="true" id="top-nav">
           <div class="navbar-nav fs-5 h-100">
             <a href="#top" class="nav-link h-100">Back to top</a>
             <a href="#methods" class="nav-link h-100 active">The Methods</a>
@@ -537,17 +538,32 @@
         <!-- Modal -->
         <div class="modal fade" id="signup-form" tabindex="-1" aria-labelledby="signup-form" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+            <div class="modal-content turquoise text-light">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="signup-formLabel">Modal title</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="signup-formLabel">Join the Coffee Club</h1>
+                <button type="button" class="btn-close btn-dark" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                ...
+
+                <!-- START OF EMBEDDED FORM -->
+                <div class="mb-3">
+                  <p class="lead">Join and get access to these and many more exclusive events.</p>
+                  <label for="formGroupExampleInput" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput"
+                    placeholder="Type your name here">
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2"
+                    placeholder="youremail@email.com">
+                </div>
+
+
+
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Later</button>
+                <button type="button" class="btn btn-primary super-orange border-0">Sign me up!</button>
               </div>
             </div>
           </div>
@@ -559,7 +575,7 @@
   </div>
   <!--Calendar End-->
   <div class="strong-shadow py-5 bg-dark">
-<p class="text-light-emphasis text-center">JCordero</p>
+    <p class="text-light-emphasis text-center">JCordero</p>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

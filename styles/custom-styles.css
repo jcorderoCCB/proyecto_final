@@ -69,6 +69,15 @@ box-shadow: 2px -3px 15px #1b1a1569
     font-weight:400;
     color: #03689e;
 }
+.nav-link {
+    font-weight: lighter;
+    color: white;
+}
+.active {
+    border-radius: 8px;
+    background-color: #be1616;
+    height: 100%;
+}
 
 .sticky-nav {
     background-color: #d62828;
@@ -97,9 +106,6 @@ box-shadow: 2px -3px 15px #1b1a1569
     .sticky-nav {
         position: fixed;
         top:0px;
-    }
-    .active {
-        border-radius: 8px;
     }
 
 }
@@ -159,11 +165,4 @@ box-shadow: 2px -3px 15px #1b1a1569
     background-color: #be1616;
     color: white;
 }
-.active {
-    background-color: #be1616;
-    height: 100%;
-}
-.nav-link {
-    font-weight: lighter;
-    color: white;
-}
+
