@@ -71,7 +71,7 @@ box-shadow: 2px -3px 15px #1b1a1569
 }
 
 .sticky-nav {
-    background-color: #d62828e7;
+    background-color: #d62828;
     backdrop-filter: blur(5px);
     width: 100%;
     z-index: 100020;
